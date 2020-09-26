@@ -53,16 +53,16 @@ h1 span,
 h2 span,
 h3 span,
 h4 span {
-	color: #339BEB;
+	color: #ffe9bd;
 }
 .text-colored {
-	color: #55acee;
+	color: #3174a8;
 }
 a {
-	color: #55acee;
+	color: #3174a8;
 }
 a:hover {
-	color: #339BEB;
+	color: #3174a8;
 }
 a:focus,
 a:active {
@@ -161,7 +161,7 @@ blockquote {
 	color: #ffffff;
 }
 .default-bg.blue {
-	background-color: #55acee;
+	background-color: #3174a8;
 }
 .translucent-bg {
 	color: #ffffff;
@@ -224,11 +224,20 @@ blockquote {
 	z-index: 3;
 	position: relative;
 }
-.bg-image-1 {
+/*.bg-image-1 {
 	background: url("../images/bg-image-1.jpg") 50% 0px no-repeat;
 }
 .bg-image-2 {
 	background: url("../images/bg-image-2.jpg") 50% 0px no-repeat;
+}*/
+
+.bg-vanta {
+    position: absolute;
+  z-index: 0;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
 }
 
 /* Misc
@@ -303,13 +312,13 @@ blockquote {
 	transition: all 0.2s ease-in-out;
 }
 .btn-default {
-	color: #55acee;
+	color: #3174a8;
 	border: 1px solid #cccccc;
 }
 .btn-default:hover {
 	color: #ffffff;
-	background-color: #339BEB;
-	border-color: #339BEB;
+	background-color: #3174a8;
+	border-color: #3174a8;
 }
 
 /* Collapse
@@ -340,7 +349,7 @@ blockquote {
 	padding: 12px 35px 12px 15px;
 	display: inline-block;
 	width: 100%;
-	background-color: #55acee;
+	background-color: #3174a8;
 	color: #ffffff;
 	position: relative;
 	text-decoration: none;
@@ -365,7 +374,7 @@ blockquote {
 }
 .panel-heading a:hover {
 	text-decoration: none;
-	background-color: #55acee;
+	background-color: #3174a8;
 	color: #ffffff;
 }
 .panel-title a i {
@@ -379,8 +388,8 @@ blockquote {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus,
 .nav-pills > li > a:hover {
-	background-color: #55acee;
-	border-color: #55acee;
+	background-color: #3174a8;
+	border-color: #3174a8;
 	color: #ffffff;
 }
 .nav-pills > li > a {
@@ -419,7 +428,7 @@ textarea {
 	border-radius: 0px;
 }
 .modal-header {
-	background-color: #55acee;
+	background-color: #3174a8;
 	color: #ffffff;
 }
 .modal-header h4 {
@@ -468,11 +477,11 @@ textarea {
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
 	background-color: transparent;
-	color: #55acee;
+	color: #ffe9bd;
 }
 .main-navigation .navbar-default .navbar-nav > li > a:hover,
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
-	color: #55acee;
+	color: #ffe9bd;
 }
 @media (min-width:768px) {
 	.main-navigation .navbar-default .navbar-nav > li > a {
@@ -590,7 +599,7 @@ textarea {
 	transition: all 0.2s ease-in-out;
 }
 .social-links li.twitter a:hover {
-	color: #55acee;
+	color: #3174a8;
 }
 .social-links li.skype a:hover {
 	color: #00aff0;
@@ -665,7 +674,7 @@ textarea {
 	bottom: -1px;
 	left: 0;
 	right: -1px;
-	background-color: rgba(85, 172, 238, 0.9);
+	background-color: rgba(49, 116, 168, 0.9);
 	cursor: pointer;
 	overflow: hidden;
 	opacity: 0;
